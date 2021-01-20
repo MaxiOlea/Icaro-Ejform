@@ -1,0 +1,37 @@
+body {
+    background-image: url(images/background-image.png);
+}
+
+form {
+    background-color: rgb(16, 30, 58, 0.5);
+    border-radius: 15px;
+    color: #faf4f4;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    }
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 280px;
+}
+
+.campo{
+    border: solid 1px #cccccc;
+    padding: 10px;
+}
+
+.campo:focus{
+    border-color: green;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.boton {
+    font-size: 20px;
+    padding: 5px;
+}
